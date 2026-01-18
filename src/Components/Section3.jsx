@@ -24,20 +24,21 @@ const Section3 = () => {
 
   const designContent = (
     <ul>
-      <li>User Experience Design</li>
+      <li>UI / UX Design</li>
       <li>Brand Identity</li>
-      <li>Print Design</li>
-      <li>Digital Design</li>
-      <li>Logo Designing</li>
+      <li>Creative Strategy</li>
+      <li>Motion Graphics</li>
+      <li>Design Systems</li>
     </ul>
   )
 
   const developmentContent = (
     <ul>
-      <li>Website & Microsite Development</li>
-      <li>Mobile Apps & Websites</li>
-      <li>Content Management Systems (CMS)</li>
-      <li>Website Maintenance & Security</li>
+      <li>Website Development</li>
+      <li>React & Next.js</li>
+      <li>Backend APIs</li>
+      <li>CMS Integration</li>
+      <li>Performance Optimization</li>
     </ul>
   )
 
@@ -64,10 +65,10 @@ const Section3 = () => {
       </h1>
       <div className={styles.cardContainer}>
         <div className={styles.card_container}>
-          <Card2 title="DIGITAL" img={digital} backcontent={digitalContent}></Card2>
-          <Card2 title="DESIGN" img={design} backcontent={designContent}></Card2>
-          <Card2 title="DEVELOPMENT" img={development} backcontent={developmentContent}></Card2>
-          <Card2 title="PRODUCTION" img={production} backcontent={productionContent}></Card2>
+          <Card2 title="DIGITAL" img={digital} desc = "Data-driven strategies to grow your brand online" backcontent={digitalContent}></Card2>
+          <Card2 title="DESIGN" img={design} desc="Creative visuals that connect and convert" backcontent={designContent}></Card2>
+          <Card2 title="DEVELOPMENT" img={development} desc="High-performance websites built to scale" backcontent={developmentContent}></Card2>
+          <Card2 title="PRODUCTION" img={production} desc="Compelling content that tells your brand story" backcontent={productionContent}></Card2>
         </div>
       </div>
     </>

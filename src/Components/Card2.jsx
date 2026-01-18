@@ -1,5 +1,5 @@
-import styles from './Card2/module.css'
-const Card2 = ({title,img,backcontent}) => {
+import styles from './Card2.module.css'
+const Card2 = ({title,img,desc,backcontent}) => {
 
   return (
     <>
@@ -8,6 +8,7 @@ const Card2 = ({title,img,backcontent}) => {
           <div className={styles.cardFront}>
             {img && <img src={img} alt={title} className={styles.card_image}/>}
             <h3 className={styles.title}>{title}</h3>
+            <p className={styles.desc}>{desc}</p>
           </div>
           <div className={styles.cardBack}>
             <h4 className={styles.backcontent}>{backcontent}</h4>
