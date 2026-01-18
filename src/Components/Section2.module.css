@@ -1,0 +1,19 @@
+.helpsection {
+  padding: 80px 8%;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  text-align: center;
+  color: #fff;
+}
+
+.helpsection h2 {
+  font-size: 38px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.helpgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  perspective: 1200px;
+}

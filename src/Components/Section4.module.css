@@ -1,0 +1,15 @@
+.section4Container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section4Heading{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
