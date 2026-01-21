@@ -13,7 +13,7 @@ header{
 
 }
 .image{
-  width: 80px;
+  width: 90px;
   height: 80px;
   padding: 12px;
 }
@@ -25,7 +25,7 @@ header{
 }
 .navbar a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   color: #E5E7EB;
 }
 .navbar a:hover{
@@ -52,6 +52,7 @@ header{
   overflow: hidden;
   font-size: 15px;
   margin-right: 20px;
+  margin-top: 0;
 }
 
 .icon {

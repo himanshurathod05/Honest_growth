@@ -1,0 +1,25 @@
+.social-icons {
+  display: flex;
+  gap: 18px;
+  margin-top: 45px;
+}
+
+.social-icons a {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  background: orange;
+  color: #000;
+  border-color: orange;
+  transform: translateY(-4px);
+}

@@ -1,7 +1,7 @@
 import styles from './Card3.module.css'
 import { useEffect, useRef } from 'react'
 
-const Card3 = ({img, text, active}) => {
+const Card3 = ({img, text, active,heading}) => {
 
   const barRef = useRef(null)
 
@@ -28,11 +28,15 @@ const Card3 = ({img, text, active}) => {
 
   return (
     <div className={styles.card3}>
-      <div className={styles.card3Inner}>
+      {/* <div className={styles.card3Inner}>
         {img && <img src={img} className={styles.card3_image}/>}
-      </div>
+      </div> */}
       <div ref={barRef} className={`${styles.bar} ${active ? styles.active : ''}`}>
-        <p>{text}</p>
+        {img && <img src={img} className={styles.card3_image}/>}
+        <div>
+          <h3>{heading}</h3>
+          <p>{text}</p>
+        </div>
       </div>
     </div>
   )

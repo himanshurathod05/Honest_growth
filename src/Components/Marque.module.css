@@ -1,7 +1,7 @@
 .marqueewrapper {
   width: 100%;
   overflow: hidden;
- background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 12%, hsla(189, 83%, 82%, 1) 59%, hsla(176, 73%, 88%, 1) 100%);
+  background:  #4a4a4a;
   padding: 15px 0;
 }
 
@@ -15,7 +15,7 @@
   white-space: nowrap;
   font-size: 20px;
   font-weight: 600;
-  color: #2a2828;
+  color: #ddd0c8;
   margin-right: 50px;
   letter-spacing: 1px;
 }

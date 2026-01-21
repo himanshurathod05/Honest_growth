@@ -32,7 +32,7 @@
       color: white;
     }
     .cardBack{
-      background: rgba(56, 55, 55, 0.622);
+      background: linear-gradient(#908e8c,#323232);
       color: white;
       transform: rotateY(180deg);
       text-align: center;

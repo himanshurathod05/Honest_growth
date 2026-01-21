@@ -4,16 +4,23 @@
   justify-content: center;
   min-height: 100vh;
   position: relative;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  margin-top: 70px;
 }
-.section4Heading{
+.section4HeadingDiv{
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: aqua;
+  background: rgba(255, 255, 255, 0.12);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: #f6d581;
+  box-shadow: 3px 3px 35px #f6d581
+}
+.section4Heading{
+  font-size: 38px
 }
 .card_container{
   width: 75%;

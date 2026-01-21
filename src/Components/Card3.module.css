@@ -6,25 +6,27 @@
   border-radius: 80px;
   display: flex;
   align-items: center;
-  gap: 24px; ;
 }
-.card3Inner{
+/* .card3Inner{
   width: 110px;
   height: 110px;
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
-}
+} */
 .card3_image{
-  width: 100%;
-  height: 100%;
+  width: 110px;
+  height: 110px;
   object-fit: cover;
+  border-radius: 50%;
+  margin-left: -35px;
+  margin-right: 10px;
 }
 .bar{
-  height: 100px;
+  height: 125px;
   width: 600px;
-  background: red;
-  border-radius: 50px;
+  background: linear-gradient(#908e8c,#323232);
+  border-radius: 60px;
   display: flex;
   align-items: center;
   padding-left: 40px;
@@ -36,6 +38,13 @@
 }
 .bar.active{
   transform: scaleX(1);
+}
+.bar h3{
+  color: #f6d581;
+}
+.bar p{
+  padding: 10px 0;
+  font-size: 16px;
 }
 .card3:nth-child(1),
 .card3:nth-child(4) {

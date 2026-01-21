@@ -9,7 +9,7 @@ const Header = () => {
       <nav className={styles.navbar}>
         <a href="#">Home</a>
         <a href="#">Services</a>
-        <a href="#">Why HG?</a>
+        <a href="#" style={{color:"#f6d581"}}>Why HG?</a>
       </nav>
       <div>
         <button className={styles.button}>
